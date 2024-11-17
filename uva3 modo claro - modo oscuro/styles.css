@@ -1,0 +1,196 @@
+/* Elimina márgenes y rellenos que puedan generar espacio adicional */
+.navbar, .navbar-nav, .navbar-toggler, .navbar-collapse {
+    margin: 0% !important;
+    padding: 0% !important;
+    background-color: #dec49b !important;
+}
+
+/* Fondo de la página */
+.bgcolor {
+    background-color: #f0d9b9;
+}
+
+/* Título */
+.estilotitulo {
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Imagen album */
+.imagen-centrada {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.imagen-centrada img {
+    width: 400px;
+    height: auto;
+    display: inline-block;
+    padding-bottom: 2%;
+}
+
+/* Estilo de la tabla */
+.deco th, .deco td {
+    background-color: #f0d9b9 !important;
+    color: black;
+    border: 1px solid #d4b189;
+    text-align: center;
+}
+
+/* Footer */
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #dec49b;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 5px;
+}
+
+/* Imagen del footer */
+.imgfooter {
+    width: 60px;
+    height: auto;
+}
+
+/* Modo Oscuro */
+.modo-oscuro {
+    background-color: #294560;
+    color: #f8e8d4; 
+}
+
+.modo-oscuro .navbar {
+    background-color: #1e3a56; 
+    color: #f8e8d4; 
+}
+
+.modo-oscuro .navbar-nav .nav-link {
+    background-color: #1e3a56;
+    color: #f8e8d4 !important;
+}
+
+.modo-oscuro .navbar .navbar-expand-lg .bg-body-tertiary {
+    background-color: #1e3a56 !important;
+    color: #f8e8d4;
+}
+
+.modo-oscuro nav {
+    background-color: #1e3a56 !important;
+    color: #f8e8d4;
+}
+
+.modo-oscuro .navbar-brand {
+    background-color: #1e3a56 !important;
+    color: #f8e8d4 !important;
+}
+
+.modo-oscuro #navbarNav {
+    background-color: #1e3a56 !important;
+    color: #f8e8d4;
+}
+
+.modo-oscuro .container-fluid {
+    background-color: #1e3a56 !important;
+    color: #f8e8d4 !important;
+}
+
+.modo-oscuro .navbar-toggler {
+    background-color: #1e3a56 !important;
+    color: #f8e8d4 !important;
+}
+
+.modo-oscuro .table {
+    background-color: #294560; 
+    color: #f8e8d4; 
+    border-color: #1e3a56; 
+}
+
+.modo-oscuro .table th, .modo-oscuro .table td {
+    background-color: #294560 !important;
+    color: #f8e8d4;
+}
+
+.modo-oscuro .footer {
+    background-color: #1e3a56; 
+    color: #f8e8d4; 
+}
+
+.modo-oscuro .footer img {
+    width: 60px;
+    height: auto;
+    background-color: #1e3a56; 
+    color: #f8e8d4; 
+}
+
+.modo-oscuro p {
+    background-color: #1e3a56; 
+    color: #f8e8d4; 
+}
+
+/* Enlaces activos y hover en modo oscuro */
+.modo-oscuro .nav-link {
+    color: #f8e8d4;
+}
+
+/* Modo Claro */
+.modo-claro {
+    background-color: #f0d9b9;
+    color: black;
+}
+
+.modo-claro .navbar {
+    background-color: #dec49b;
+    color: black;
+}
+
+.modo-claro .navbar-brand {
+    background-color: #dec49b;
+    color: black;
+}
+
+.modo-claro .container-fluid {
+    background-color: #dec49b;
+    color: black;
+}
+
+.modo-claro .navbar-nav .nav-link {
+    color: black;
+}
+
+.modo-claro .table {
+    background-color: #f0d9b9;
+    color: black;
+    border-color: #d4b189;
+}
+
+.modo-claro .table th, .modo-claro .table td {
+    background-color: #f0d9b9 !important;
+    color: black;
+}
+
+.modo-claro .footer {
+    background-color: #dec49b;
+    color: black;
+}
+
+.modo-claro .footer img {
+    width: 60px;
+    height: auto;
+    background-color: #dec49b; 
+    color: black; 
+}
+
+.modo-claro p {
+    background-color: #dec49b; 
+    color: black; 
+}
+
+/* Enlaces activos y hover en modo claro */
+.modo-claro .nav-link.active {
+    color: black;
+}
+
